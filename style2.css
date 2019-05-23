@@ -1,0 +1,51 @@
+body{
+	background:
+	
+	url("blue.jpg");
+	background-size: cover; 
+	
+	
+
+    background-position:center;
+
+	font-family:Comic Sans,Gabriola;
+	font-size: 20px;
+	}
+	
+
+p,h2
+	{
+	margin: 1%;
+	color:white;
+	}
+.subform .label {
+  	display: inline-block;
+  	width: 200px;
+  	vertical-align: top;
+  	text-align: right;
+ 	margin-right: 10px;
+  	font-weight: bold;
+  	}
+.subform input[type="submit"],input[type="reset"] {  
+	margin-left: 220px;
+  	padding: 10px 25px;
+ 	font-size:1em;
+   	border-width:2px;
+  	font-family:Comic Sans,Gabriola;
+  
+}
+.subform input[type="text"],input[type="date"],#refer,textarea {
+	font-size: 0,8em;
+	border-width:2px;
+	width:500px;
+	padding:5px;	
+}
+.wiki
+{
+	font-family: Helvetica, Geneva, Arial;
+	font-size:11pt;
+	padding:40px;
+	}
+div{
+	font-size:20pt;
+	}

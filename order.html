@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	<title>Заявка на поход в театр</title>
+	<link href='style1.css' type = 'text/css' rel="stylesheet">  
+	<script type = "text/javascript" src = "shift.js" >
+		
+	</script>
+	
+	</head>
+<body>
+	<script>
+		
+	</script>
+		<h2>Купить билет:</h2>
+	<form class="subform"  method="post">
+	<p>
+		<label for="refer" class="label">Выберите спектакль:</label>
+		<select name="refer" id="refer">
+			<option value="1">"Сон в летнюю ночь"</option>
+			<option value="2">"Гаргантюа и Пантагрюэль"</option>
+			<option value="3">"Муха-цокотуха"</option>
+		</select>
+	</p>
+	<p>
+		<label for="name" class="label">Введите свое имя</label>
+		<input type="text" name="name" id="name">
+	</p>
+	<p>
+		<label for="LastName" class="label">Введите свою фамилию</label>
+		<input type="text" name="LastName" id="LastName">
+	</p>
+	<p>
+		<label for="phone" class="label">Введите телефон</label>
+		<input type="text" name="phone" id="phone" maxlength ="12">
+	</p>
+	<p>
+		<label for="date" class="label">Введите дату заявки:</label>
+		<input type = "date" name = "date">
+	</p>
+		
+	<input type = "reset" name = "reset" value = "Очистить поле!" />
+	<input type = "submit" name = "submit" value = "Отправить!" /><br>
+	
+	<p><img src="mask.png" align="right" width="200" height="300" usemap="#map" alt="Сменить фон"></p>
+  <p><map name="map">
+  <area shape="rect" 
+    coords="30,50, 170,220" 
+    onclick="start()">
+	</body>
+	</html>
+	
+</body>
+</html>
